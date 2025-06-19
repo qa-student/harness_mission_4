@@ -27,7 +27,7 @@ pipeline:
             type: KubernetesDirect
             spec:
               connectorRef: kubernetes_connector
-              namespace: lbg-trainer
+              namespace: harness-delegate-ng
               automountServiceAccountToken: true
               nodeSelector: {}
               os: Linux
